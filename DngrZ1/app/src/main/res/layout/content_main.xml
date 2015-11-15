@@ -9,22 +9,13 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" tools:context="com.example.vidya.dngrz1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="DngrZ1"
-        android:id="@+id/textView3"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search for Danger"
+        android:text="Get Help"
         android:id="@+id/button"
         android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_toEndOf="@+id/button3" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,7 +31,26 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="No Danger in your area."
         android:id="@+id/textView4"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="44dp"
         android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DngrZ1"
+        android:id="@+id/textView3"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danger Zone"
+        android:id="@+id/button3"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
