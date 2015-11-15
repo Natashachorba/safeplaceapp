@@ -30,22 +30,18 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button gH = (Button)findViewById(R.id.getHelp);
-/**
- * TODO: Set up get help page
- */
+
         gH.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent moveToghp = new Intent(getApplicationContext(), gethhelppage.class);
-                startActivity(moveToghp);
+                Intent moveghp = new Intent(getApplicationContext(), gethhelppage.class);
+                startActivity(moveghp);
             }
         });
 
         Button dZ = (Button)findViewById(R.id.DangerZone);
-/**
- * TODO: Set up get find danger zone page
- */
+
         dZ.setOnClickListener(new View.OnClickListener() {
 
             @Override
