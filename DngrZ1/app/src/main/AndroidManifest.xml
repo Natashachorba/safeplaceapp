@@ -23,22 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainPageListActivity"
-            android:label="@string/title_mainpage_list"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".MainPageDetailActivity"
-            android:label="@string/title_mainpage_detail"
-            android:parentActivityName=".MainPageListActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.vidya.dngrz1.MainPageListActivity" />
-        </activity>
-        <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"
+            android:label="@string/title_mainpage_list"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
